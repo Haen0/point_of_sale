@@ -10,7 +10,7 @@ class PesananController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'isi' => 'required|max:255',
+            'isi' => 'required',
             'total_harga' => 'required|numeric',
         ]);
 

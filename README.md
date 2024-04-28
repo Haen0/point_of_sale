@@ -43,11 +43,15 @@ This project is a Point of Sale (POS) system built using the Laravel framework. 
    ```bash
    php artisan key:generate
    ```
-7. Run the migrations to create the necessary tables.
+7. Storage link image.
+   ```bash
+   php artisan storage:link
+   ```
+8. Run the migrations to create the necessary tables.
    ```bash
    php artisan migrate
    ```
-8. Finally, start the server.
+9. Finally, start the server.
    ```bash
    php artisan serve
    ```

@@ -169,7 +169,18 @@
                             </svg>
                         </div>
                         <div class="p-5 text-lg" id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
-                            
+                            <div class="pb-3 sm:pb-4 flex flex-col">
+                                <div class="flex min-w-0 w-full items-center">
+                                    <p class="text-md font-medium text-blue-300 truncate dark:text-white w-2/3">
+                                        1
+                                    </p>
+                                    <p class="text-md text-gray-500 truncate dark:text-gray-400 w-1/6 text-right pr-2">
+                                    </p>
+                                    <p class="text-blue-300 dark:text-white w-1/3 text-right">
+                                        View Table
+                                    </p>
+                                </div>
+                            </div>
                             <ul class="dark:divide-gray-700" id="daftar-menu">
 
 
