@@ -71,6 +71,7 @@ If you want to use existing data
    ```
    storage/app/public/img/menu/
    ```
+   if it doesn't exist, create the folder first
 2. Either dump the data in the menus.sql file or delete the menus table in the database and import the menus.sql file in this folder into the database.
 
 ### Additional Notes
