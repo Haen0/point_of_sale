@@ -1,5 +1,9 @@
 # Point of Sale (POS)
 
+### Update Information
+New Feature: Print Bill to PDF with DomPDF
+This project now includes the ability to convert content to PDF using dompdf, just a rough code so that the selected menu list can be printed by making it a pdf file.
+
 ### Description
 This project is a Point of Sale (POS) system built using the Laravel framework. For its frontend, the project utilizes Tailwind CSS with the Flowbite CDN version and native JavaScript. Meanwhile, for the backend, the project relies on Laravel's built-in features. The database used in this project is MySQL, more specifically accessed through PhpMyAdmin.
 
