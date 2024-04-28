@@ -30,6 +30,10 @@ This project is a Point of Sale (POS) system built using the Laravel framework. 
    ```bash
    composer install
    ```
+   Install DomPDF Package.
+   ```bash
+   composer require barryvdh/laravel-dompdf
+   ```
 4. Copy the `.env.example` file to `.env`.
    ```bash
    cp .env.example .env
