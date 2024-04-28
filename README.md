@@ -10,8 +10,8 @@ This project is a Point of Sale (POS) system built using the Laravel framework. 
 - **Database:** MySQL (accessed via PhpMyAdmin)
 
 ### Preview
-![Preview_1](preview1.jpg)
-![Preview_2](preview2.jpg)
+![Preview_1](preview_1.png)
+![Preview_2](preview_2.png)
 
 ### Installation and Usage
 1. Clone this repository to your local machine.
