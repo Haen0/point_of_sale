@@ -39,10 +39,10 @@ class PdfController extends Controller
             ];
         }
     
-        $pdf = Pdf::loadView('pdf', ['data' => $data]);
-        $pdf->setPaper('A4', 'landscape'); 
-        
+        $pdf = Pdf::loadView('pdf', ['data' => $data, 'total_harga' => $pesanan->total_harga]);
+        $customPaper = array(0, 0, 110, 500);
+        $pdf->setPaper($customPaper);
 
-        return $pdf->download();;
+        return $pdf->download();
     }
 }
