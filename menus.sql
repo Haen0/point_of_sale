@@ -56,7 +56,7 @@ INSERT INTO `menus` (`id`, `nama`, `kategori`, `foto`, `harga`, `created_at`, `u
 (12, 'Coffee Espreso', 'Minuman', 'img/menu/rPWtbQ818VP0gey4s8qZUjGSd1TXaS2JcAFJM5H3.jpg', 10000, '2024-04-27 14:28:32', '2024-04-27 14:28:32'),
 (13, 'Fresh Milk', 'Minuman', 'img/menu/vAkUbC5R7TM3ZaUqcrnuwulGmLrrLX0F0y2LLdx7.jpg', 10000, '2024-04-27 14:29:22', '2024-04-27 14:29:22'),
 (14, 'Sushi Small', 'Sushi', 'img/menu/xYRiaVH2QnYWze7wu1epGIifmsWifbUVDMAlbifR.jpg', 25000, '2024-04-27 14:30:06', '2024-04-27 14:30:06'),
-(15, 'Sushi Large', 'Sushi', 'img/menu/RaUr5qwO6GWqHKecCSrvuw6Apz0WSOFvoFmBrEzx.jpg', 35000, '2024-04-27 14:30:38', '2024-04-27 14:30:38');
+(15, 'Sushi Large', 'Sushi', 'img/menu/RaUr5qwO6GWqHKecCSrvuw6Apz0WSOFvoFmBrEzx.jpg', 35000, '2024-04-27 14:30:38', '2024-04-27 14:30:38'),
 (16, 'Ramen Cemen', 'Ramen', 'img/menu/UPyVPVTTOC268QUbRCYBeXOr5ysGL3zTO7DzCmy2.jpg', 40000, '2024-04-27 14:31:38', '2024-04-27 14:31:38');
 
 --

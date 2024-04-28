@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('pesanans', function (Blueprint $table) {
             $table->id();
-            $table->string('isi');
+            $table->string('isi', 1000);
             $table->integer('total_harga');
             $table->timestamps();
         });
