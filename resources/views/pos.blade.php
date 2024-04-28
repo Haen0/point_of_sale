@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
-    <title>Document</title>
+    <title>Point Of Sale</title>
     <style>
         @font-face {
             font-family: 'Montserrat';
@@ -109,24 +109,37 @@
                     </div>
                     <div class="grid grid-cols-1 grid-flow-row auto-rows-max basis-1/4 ml-1.5 pl-3.5 gap-5">
                         <div class="bg-white rounded-xl overflow-hidden shadow-lg">
-                            <img src="{{ asset('img/ramjn.jpg') }}" alt="ramen" class="bg-slate-600 w-full h-56 object-cover">
-                            <p class="text-center p-2 text-md whitespace-nowrap ">Ramen Shoyu kare gar chi</p>
+                            <div class="bg-slate-600 w-full h-56 object-cover flex items-center justify-center text-gray-100 text-4xl">
+                                Ra
+                            </div>
+                            <p class="text-center p-2 text-md whitespace-nowrap ">Ramen</p>
                         </div>
                         <div class="bg-white rounded-xl overflow-hidden shadow-lg">
-                            <img src="{{ asset('img/ran2.jpg') }}" alt="ramen" class="bg-slate-600 w-full h-56 object-cover">
-                            <p class="text-center p-2 text-md whitespace-nowrap ">Ramen Shoyu udon tnu kui ga hachi</p>
+                            <div class="bg-slate-600 w-full h-56 object-cover flex items-center justify-center text-gray-100 text-4xl">
+                                Ud
+                            </div>
+                            <p class="text-center p-2 text-md whitespace-nowrap ">Udon</p>
                         </div>
                         <div class="bg-white rounded-xl overflow-hidden shadow-lg">
-                            <img src="{{ asset('img/raen.jpg') }}" alt="ramen" class="bg-slate-600 w-full h-56 object-cover">
-                            <p class="text-center p-2 text-md whitespace-nowrap">Ramen Shoyu</p>
+                            <div class="bg-slate-600 w-full h-56 object-cover flex items-center justify-center text-gray-100 text-4xl">
+                                Su
+                            </div>
+                            <p class="text-center p-2 text-md whitespace-nowrap">Sushi</p>
                         </div>
                         <div class="bg-white rounded-xl overflow-hidden shadow-lg">
-                            <img src="{{ asset('img/ren2.jpg') }}" alt="ramen" class="bg-slate-600 w-full h-56 object-cover">
-                            <p class="text-center p-2 text-md whitespace-nowrap ">Ramen Shoyu kare gar chi</p>
+                            <div class="bg-slate-600 w-full h-56 object-cover flex items-center justify-center text-gray-100 text-4xl">
+                                Mi
+                            </div>
+                            <p class="text-center p-2 text-md whitespace-nowrap ">Minuman</p>
                         </div>
                         <div class="bg-white rounded-xl overflow-hidden shadow-lg">
-                            <img src="{{ asset('img/ramn3.jpg') }}" alt="ramen" class="bg-slate-600 w-full h-56 object-cover">
-                            <p class="text-center p-2 text-md whitespace-nowrap ">Ramen Shoyu udon tnu kui ga hachi</p>
+                            <div class="bg-slate-600 w-full h-56 object-cover flex items-center justify-center">
+                                <svg class="w-40 h-40 text-gray-100 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.891 15.107 15.11 8.89m-5.183-.52h.01m3.089 7.254h.01M14.08 3.902a2.849 2.849 0 0 0 2.176.902 2.845 2.845 0 0 1 2.94 2.94 2.849 2.849 0 0 0 .901 2.176 2.847 2.847 0 0 1 0 4.16 2.848 2.848 0 0 0-.901 2.175 2.843 2.843 0 0 1-2.94 2.94 2.848 2.848 0 0 0-2.176.902 2.847 2.847 0 0 1-4.16 0 2.85 2.85 0 0 0-2.176-.902 2.845 2.845 0 0 1-2.94-2.94 2.848 2.848 0 0 0-.901-2.176 2.848 2.848 0 0 1 0-4.16 2.849 2.849 0 0 0 .901-2.176 2.845 2.845 0 0 1 2.941-2.94 2.849 2.849 0 0 0 2.176-.901 2.847 2.847 0 0 1 4.159 0Z"/>
+                                </svg>
+                            </div>
+                            
+                            <p class="text-center p-2 text-md whitespace-nowrap ">Happy Hour</p>
                         </div>
                     </div>
                 </div>
