@@ -9,6 +9,10 @@ This project is a Point of Sale (POS) system built using the Laravel framework. 
 - **CDN:** Flowbite
 - **Database:** MySQL (accessed via PhpMyAdmin)
 
+### Preview
+![Preview_1](preview1.jpg)
+![Preview_2](preview2.jpg)
+
 ### Installation and Usage
 1. Clone this repository to your local machine.
    ```bash
