@@ -13,4 +13,4 @@ Route::delete('/hapus/{menu}', [CrudController::class, 'destroy'])->name('menu.h
 
 Route::post('/save_pesanan', [PesananController::class, 'store'])->name('pesanan.tambah');
 
-Route::get('/convert_pdf', [PdfController::class, 'download'])->name('convert.pdf');
+Route::post('/convert_pdf', [PdfController::class, 'download'])->name('convert.pdf');

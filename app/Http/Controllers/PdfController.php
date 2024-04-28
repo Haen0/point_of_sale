@@ -8,16 +8,10 @@ use Barryvdh\DomPDF\Facade\Pdf;
 
 class PdfController extends Controller
 {
-    public function store(Request $request)
-    {
-        
-        return redirect()->route('menu.index')
-        ->with('success', 'Menu Berhasil disimpan');
-    }
     public function download(Request $request) {
 
         $request->validate([
-            'isi' => 'required|max:255',
+            'isi' => 'required',
             'total_harga' => 'required|numeric',
         ]);
 
@@ -26,17 +20,29 @@ class PdfController extends Controller
         $pesanan->total_harga = $request->input('total_harga');
 
         $pesanan->save();
-        
-        $data = [
-            [
-                'quantity' => 1,
-                'description' => '1 Year Subscription',
-                'price' => '129.00'
-            ]
-        ];
+
+        $isiJsonString = $request->input('isi');
+
+        $isiArray = json_decode($isiJsonString, true);
+
+        $data = [];
+
+        foreach ($isiArray as $itemId => $itemDetail) {
+            $nama = $itemDetail['nama'];
+            $harga = $itemDetail['harga'];
+            $qty = $itemDetail['qty'];
+
+            $data[] = [
+                'nama' => $nama,
+                'harga' => $harga,
+                'qty' => $qty,
+            ];
+        }
     
         $pdf = Pdf::loadView('pdf', ['data' => $data]);
-    
-        return $pdf->download();
+        $pdf->setPaper('A4', 'landscape'); 
+        
+
+        return $pdf->download();;
     }
 }

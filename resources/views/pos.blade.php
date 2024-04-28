@@ -230,10 +230,11 @@
                                 <input type="hidden" id="total-harga-push" name="total_harga" value="">
                                 <button type="submit" class="w-full text-center text-xl p-4 border-r-2 border-white hover:bg-slate-300">Save Bill</button>
                             </form>
-                            <form action="{{ route('pesanan.tambah')}}" method="POST" class="w-full">
+                            <form action="{{ route('convert.pdf')}}" method="POST" class="w-full">
                                 @csrf
+                                <input type="hidden" id="isi_print" name="isi" value="">
                                 <input type="hidden" id="total-harga-print" name="total_harga" value="">
-                                <button type="button" class="w-full text-center text-xl p-4 hover:bg-slate-300">Print Bill</button>
+                                <button type="submit" class="w-full text-center text-xl p-4 hover:bg-slate-300">Print Bill</button>
                             </form>
                         </div>
                         <form action="{{ route('pesanan.tambah')}}" method="POST">
@@ -535,6 +536,9 @@
             var menuItemsString = JSON.stringify(menuItems);
             const isiInput = document.getElementById('isi');
             isiInput.value = menuItemsString;
+
+            const isiInputPrint = document.getElementById('isi_print');
+            isiInputPrint.value = menuItemsString;
         }
 
         function hitungTotalHarga() {
